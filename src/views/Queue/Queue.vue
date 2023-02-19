@@ -2,9 +2,9 @@
     <PatternTask :nameStructureData="nameStructureData" :Task="Task"/>
     <div class="ms-2">
         <div class="input-group">
-            <span class="input-group-text" id="inputGroup-sizing-default">Введите число чисел в массиве</span>
+            <span class="input-group-text" id="inputGroup-sizing-default">Введите число элементов в очереди</span>
             <input type="text" class="form-control flex-grow-0 w-25" aria-label="default input example" v-model="countNumberArray">
-            <button type="button" class="btn btn-primary" @click="randomArray(countNumberArray)">Создать массив</button>
+            <button type="button" class="btn btn-primary" @click="randomArray(countNumberArray)">Создать очередь</button>
         </div>
         <div class="mt-2">{{ arrayNumbers }}</div>
         <div class="form-check">

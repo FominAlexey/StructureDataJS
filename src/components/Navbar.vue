@@ -23,7 +23,15 @@
             Стек
           </a>
           <ul class="dropdown-menu">
-            <li><router-link to="/Stack" class="dropdown-item" aria-current="page">Поменть информацию местами</router-link></li>
+            <li><router-link to="/Stack" class="dropdown-item" aria-current="page">Поменять информацию местами</router-link></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Список
+          </a>
+          <ul class="dropdown-menu">
+            <li><router-link to="/List" class="dropdown-item" aria-current="page">Метод наименьших квадратов</router-link></li>
           </ul>
         </li>
       </ul>
